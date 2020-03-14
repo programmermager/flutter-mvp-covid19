@@ -1,9 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:covid19/res/colors.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'dart:math';
-
-import 'dot_type.dart';
 
 class ToolbarHome extends StatelessWidget implements PreferredSizeWidget {
   final double height;
@@ -22,8 +19,10 @@ class ToolbarHome extends StatelessWidget implements PreferredSizeWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           Container(
-            margin: EdgeInsets.only(left: ScreenUtil().setSp(15), top: ScreenUtil().setHeight(15)),
-            child: Image.asset("assets/img/img_covid_logo.png", width: ScreenUtil().setWidth(150)),
+            margin: EdgeInsets.only(
+                left: ScreenUtil().setSp(15), top: ScreenUtil().setHeight(15)),
+            child: Image.asset("assets/img/img_covid_logo.png",
+                width: ScreenUtil().setWidth(150)),
           )
         ],
       ),
