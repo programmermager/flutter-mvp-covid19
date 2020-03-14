@@ -1,16 +1,32 @@
-# covid19
+# Hi Guys
 
-Covid19 app
+This repository contains an application which is a flutter version and was inspired by [Kotlin MVVM Covid19 by Rizki Maulana](https://github.com/rizmaulana/kotlin-mvvm-covid19) dont forget to follow him!.
+
+This app uses MVP Pattern and uses Retrofit as Networking. you can learn about it in this [LINK](https://medium.com/plugin-id/pendekatan-mudah-flutter-mvp-with-retrofit-492c5bb27ed1).
+
+![alt text](https://i.ibb.co/pW1hKZf/Group-1.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Clone
+- replace String "REPLACE_WITH_YOUR_GOOGLE_API_KEY" with your Google API KEY (for Map purpose)
+- run and dont forget to pray
 
-A few resources to get you started if this is your first Flutter project:
+------------------------------------------------------------------------------------------
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Library Stack
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- http
+- retrofit
+- dio
+- shared_preferences
+- json_serializable
+- google_maps_flutter
+- charts_flutter
+- sliding_up_panel
+- etc...
+
+------------------------------------------------------------------------------------------
+
+### Notes
+This project is far from clean code, let alone perfect. Your contribution is needed here.
